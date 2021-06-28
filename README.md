@@ -12,7 +12,7 @@ OpenFunction Functions Framework is designed to provide users of FaaS with a sui
 ### Runtime
 
 - Knative
-- KEDA + Dapr
+- OpenFuncAsync
 
 ### Function Type
 
@@ -37,4 +37,3 @@ OpenFunction Functions Framework is designed to provide users of FaaS with a sui
 ## Contributing
 
 You can get help on developing OpenFunction Functions Framework by visiting [CONTRIBUTING](CONTRIBUTING.md) .
-
