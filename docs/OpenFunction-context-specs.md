@@ -75,6 +75,7 @@ Effective only when using OpenFuncAsync as runtime.
 <div align="right">
     <b><a href="#context">↥ back to Context</a></b>
 </div>
+
 ### Outputs
 
 Examples:
