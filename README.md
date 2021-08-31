@@ -5,9 +5,8 @@ OpenFunction Functions Framework is designed to provide users of FaaS with a sui
 
 ### Language
 
-- Go
-
-  [functions-framework-go](https://github.com/OpenFunction/functions-framework-go)
+- Go: [functions-framework-go](https://github.com/OpenFunction/functions-framework-go)
+- Nodejs: [functions-framework-nodejs](https://github.com/openFunction/functions-framework-nodejs)
 
 ### Runtime
 
