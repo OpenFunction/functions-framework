@@ -20,7 +20,6 @@ Development of function conversion suites for different programming languages. R
 
   Refer to [function-context](https://github.com/OpenFunction/OpenFunction/blob/main/docs/proposals/202105_add_function_framework.md#function-context) to learn how it works.
   
-  For detailed Function Context specs visit [OpenFunction Context Specs](docs/OpenFunction-context-specs.md).
 
 ## Development Guide
 
