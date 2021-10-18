@@ -1,6 +1,17 @@
 # OpenFunction Functions Framework
 OpenFunction Functions Framework is designed to provide users of FaaS with a suite of tools to convert user code into application code that supports multiple runtimes.
 
+## OpenFunction Context Specs
+
+For detailed Function Context specs visit:
+
+- [OpenFunction Context Specs v0.3.1](docs/v0.3.1/OpenFunction-context-specs.md).
+- [OpenFunction Context Specs latest](docs/latest/OpenFunction-context-specs.md).
+
+## Functions Framework Samples
+
+You can visit [OpenFunction/samples: Functions-framework samples](https://github.com/OpenFunction/samples#functions-framework-samples) for examples of functions-framework.
+
 ## Support
 
 ### Language
@@ -29,9 +40,8 @@ OpenFunction Functions Framework is designed to provide users of FaaS with a sui
 
   The framework creates a route that associates the specified HTTP url path with the user function.
 
-  The framework also provides the SDK for getting data and sending data. Users can use `OpenFunctionContext` to handle function resource contexts, including performing "get data" and "send data".
+  The framework also provides the SDK for getting data and sending data. Users can use [OpenFunctionContext](#openfunction-context-specs) to handle function resource contexts, including performing "get data" and "send data".
   
-  For detailed Function Context specs visit [OpenFunction Context Specs](docs/OpenFunction-context-specs.md).
 
 ## Contributing
 
