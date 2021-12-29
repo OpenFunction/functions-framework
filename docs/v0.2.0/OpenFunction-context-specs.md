@@ -22,6 +22,7 @@ Example:
   "version": "v1",
   "requestID": "a0f2ad8d-5062-4812-91e9-95416489fb01",
   "port": "50002",
+  "clientPort": "44538",
   "inputs": {},
   "outputs": {},
   "runtime": "OpenFuncAsync",
@@ -36,7 +37,8 @@ Specification:
 | name       | string, require | Function name.                                            | [ff-go](https://github.com/OpenFunction/functions-framework-go) | "myfunction", "hello-func"             |
 | version    | string, require | Function version.                                         | [ff-go](https://github.com/OpenFunction/functions-framework-go) | "v1", "v2"                             |
 | requestID | string          | Request ID, uuid format.                                  | [ff-go](https://github.com/OpenFunction/functions-framework-go) | "a0f2ad8d-5062-4812-91e9-95416489fb01" |
-| port       | string, require | Function serving port.                                    | [ff-go](https://github.com/OpenFunction/functions-framework-go) | "50001"                        |
+| port       | string | Function serving port.                                    | [ff-go](https://github.com/OpenFunction/functions-framework-go) | "50001"                        |
+| clientPort | string | Dapr client port. | [ff-go](https://github.com/OpenFunction/functions-framework-go) | "44544" |
 | inputs     | map       | Function input from bindings data.<br />A map of Input objects. The key is the name of input and the value is input object, see [Input](#input). <br />Empty means no input. | [ff-go](https://github.com/OpenFunction/functions-framework-go) |                                        |
 | outputs    | map        | Function output to bindings data. <br />A map of Output objects. The key is the name of output and the value is output object, see [Output](#output). <br />Empty means no output. | [ff-go](https://github.com/OpenFunction/functions-framework-go) |                                        |
 | runtime    | enum, require   | Function serving runtime, see [Runtime](#runtime).       | [ff-go](https://github.com/OpenFunction/functions-framework-go) | "Knative", "OpenFuncAsync"       |
