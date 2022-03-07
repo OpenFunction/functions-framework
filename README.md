@@ -7,6 +7,8 @@ To learn more about the design of the OpenFunction Context, refer to [Function C
 
 To learn more about different versions of the OpenFunction Context specifications, refer to the following links:
 
+- [Context Specs v0.3.0](docs/v0.3.0/OpenFunction-context-specs.md)
+
 - [Context Specs v0.2.0](docs/v0.2.0/OpenFunction-context-specs.md)
 
 - [Context Specs v0.1.0](docs/v0.1.0/OpenFunction-context-specs.md)
@@ -15,11 +17,12 @@ The direct user of OpenFunction Context is the OpenFunction Builder (Go). The fo
 
 > You can get the corresponding version compatibility information from the specific builder repository. Here we use the OpenFunction Go (v1.15) builder as an example.
 
-| OpenFunction | Context | Builder (Go)                                |
-| ------------ | ------- | ------------------------------------------- |
+| OpenFunction | Context | Builder (Go)                                 |
+| ------------ | ------- | -------------------------------------------- |
 | v0.3.*       | v0.1.0  | v0.2.2 (openfunction/builder-go:v0.2.2-1.15) |
 | v0.4.*       | v0.2.0  | v0.3.0 (openfunction/builder-go:v0.3.0-1.15) |
 | v0.5.*       | v0.2.0  | v0.4.0 (openfunction/builder-go:v0.4.0-1.15) |
+| v0.6.*       | v0.3.0  | v2-1.16+                                     |
 
 ## Functions Framework Samples
 
